@@ -154,6 +154,16 @@ Grade the code in @fibonacci.py (0-10), according to the next criteria:
 Improve the code so that it gets a better grading
 ```
 
+## Help
+
+```text
+Which commands do you understand?
+```
+
+```text
+Which commands starting with / do you understand?
+```
+
 ## Other tasks
 
 ```text
