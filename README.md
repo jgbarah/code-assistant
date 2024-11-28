@@ -133,6 +133,27 @@ Suggest some improvements for the code.
 Do you think this code is original, or produced by an AI assistant?
 ```
 
+```text
+Grade the code in @fibonacci.py (0-10), according to the next criteria:
+
+* There should be no global vartiables.
+* At least there should be two functions.
+* There should be no recursion.
+* There should be at least one loop.
+* There should be at least one if.
+* All functions should have a docstring.
+* All parameters of functions should have type hints.
+* All parameters of functions should have default values.
+* Non valid values should be checked, and error returned
+* Code should be readable
+* Code should be efficient
+* Code should be correct
+```
+
+```text
+Improve the code so that it gets a better grading
+```
+
 ## Other tasks
 
 ```text
