@@ -97,6 +97,32 @@ Select some text and ask the chat for an explanation, or:
 /explain fibonacci.py:14-21
 ```
 
+## Detect and fix bugs
+
+```text
+Detect a bug in @fibonacci_bug.py function @generate_fibonacci_sequence and fix it.
+```
+
+```text
+I have this error, can you fix it?
+
+/usr/bin/python3.12 fibonacci_bug.py 5 
+Traceback (most recent call last):
+  File "fibonacci_bug.py", line 34, in <module>
+    main()
+  File "/fibonacci_bug.py", line 26, in main
+    fibonacci_sequence = generate_fibonacci_sequence(number_of_terms)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "code-assistant/fibonacci_bug.py", line 7, in generate_fibonacci_sequence
+    sequence.append(sequence[-2] + sequence[-3])
+                                   ~~~~~~~~^^^^
+IndexError: list index out of range
+
+Process finished with exit code 1
+```
+
+It may also be good enough to just ask the assistant to explain the code, or to check the code.
+
 ## Refinements and use from the editor
 
 Configuration:
@@ -194,6 +220,10 @@ Summarize this @README.md.
 ```text
 Write the statement for a practice on sorting. Be detailed, specify the names of functions and files, write it in Markdown.
 ```
+
+## Bonus track: using the assistant as an instructor
+
+[Example of session using the assistant as an instructor](assistant_as_instructor.md). Design a learning plan, write it in the form of a section of a book, design exercises, design an evaluation and a practice for it, grade examples of evaluation and practice, etc.
 
 ## Food for thought
 
