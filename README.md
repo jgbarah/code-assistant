@@ -4,8 +4,13 @@ These are some notes about how I use code assistants.
 
 ## IDE Plugins
 
-* [Codeium](https://codeium.com). Plugins (extensions) for VSCode, IntelliJ (PyCharm, etc.), Emacs, etc. Usage for free (at least for now), good integration with the IDE. Several models available.
+* [Codeium](https://codeium.com). Plugins (extensions) for VSCode, IntelliJ (PyCharm, etc.), Emacs, etc. Usage for free (at least for now), good integration with the IDE. Several models available, the user interface is the same for all of them.
 * [Continue](https://continue.dev). Plugins (extensions) for VSCode and IntelliJ (PyCharm, etc.). Free (open source) software, good integration with the IDE. Many different backends, the user interface is the same for all of them. The user needs access to the backends (via tokens, etc). Can be used with locally deployed LLMs (Ollama, LM Studio, etc.).
+* [Copilot](https://docs.github.com/en/copilot). Plugins (extensions) for VSCode, IntelliJ (PyCharm, etc.). [Uso gratuito para estudiantes, profesores, mantenedores de software libre](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer).
+* Asistente integrado en IntelliJ IDEs. Prueba gratuita durante 7 días.
+* Muchas otras opciones. Por ejemplo, puedes ojear [este artículo](https://www.thedroidsonroids.com/blog/best-ai-coding-assistant-tools), o [este otro](https://spacelift.io/blog/ai-coding-assistant-tools).
+
+Yo voy a centrarme en Codeium, que es el que estoy utilizando últimamente.
 
 ## Coding
 
