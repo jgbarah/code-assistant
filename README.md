@@ -210,6 +210,13 @@ Can you translate it to Spanish?
 ```
 
 ```text
+Translate the following text into Spanish:
+
+Yesterday... all was such an easy game to play, all my trouble feel so far away, now I long for yesterday
+```
+
+
+```text
 Summarize what does the code in @fibonacci.py do.
 ```
 
